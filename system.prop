@@ -1,4 +1,5 @@
 # system.prop for osprey
-
+ro.product.model=osprey
+ro.product.device=osprey
 # RIL
 rild.libargs=-d /dev/smd0
