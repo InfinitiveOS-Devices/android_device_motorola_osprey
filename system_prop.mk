@@ -66,6 +66,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.loc.nlp_name=com.qualcomm.services.location \
     persist.mot.gps.smart_battery=1
 
+# IO Scheduler
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.io.scheduler=cfq
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     vidc.enc.narrow.searchrange=1
